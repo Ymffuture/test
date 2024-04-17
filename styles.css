@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    gap: 50px;
+}
+
+.video-item {
+    position: relative;
+    cursor: pointer;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+video:hover {
+    filter: brightness(0.7);
+}
+
+video:fullscreen {
+    width: 100vw;
+    height: 100vh;
+}
+.video-grid{
+    background: rgb(253, 253, 253);
+    padding: 20px;
+    margin: 50px;
+   
+}
